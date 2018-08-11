@@ -15,178 +15,71 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/grayscale.scss" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 abc col-sm-12">
-          <!-- <img src="img/IMG_20180302_144122_Bokeh_edited.jpeg" /> -->
-        </div>
-        <div class="col-lg-6  col-sm-12">
-          <!-- Navigation -->
-          <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-              <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#products">Work</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                  </li>
-                </ul>
+      <div class="row" id="introduction-section">
+        <div class="col-sm-12 col-lg-6 image-title-section" style="padding-top: 50px;background-color: #e8e8e8">
+          <div style="text-align: center;">
+            <img src="img/IMG_20180302_144122_Bokeh_edited.jpeg"  style="width: 30%;"/>
+          </div>
+          <div class="intro-body mt-5">
+            <h1 class="brand-heading">Vrushali Waykole</h1>
+            <p class="intro-text">
+              Product Manager
+            </p>
+          </div>
+          <div class="row" style="position: absolute;width: 100%;bottom: 10px">
+            <div class="col-sm-12 col-md-12 col-lg-8" style="font-size: 15px">
+              vrushaliwaykole@gmail.com | +918055523591
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 text-right">
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/vrushaliwaykole"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/vrushaliwaykole/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/vrushaliwaykole"><i class="fa fa-twitter"></i></a>
+                <a href="https://medium.com/@vrushaliwaykole" target="_blank"><i class="fa fa-medium  "></i></a>
               </div>
             </div>
-          </nav>
-          <!-- Intro Header -->
-          <header class="masthead">
-            <div class="intro-body">
-              <h1 class="brand-heading">Vrushali Waykole</h1>
-              <p class="intro-text">Product Manager
-                <br>at Amura Marketing Technologies</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12  mt-3 mb-3 about-index-section">
+          <div class="content pt-3 pb-3">
+            <div class="text-center pt-2 pb-2 pr">
+              <h3>About Me</h3>
             </div>
-          </header>
+            <p class="pt-4">Hey there! I am a tech enthusiast currently working in software industry. I have around 5 years of experience</p>
+            <p><b>Where I am from?</b></p>
+            <p>I am from Nashik, Maharashtra, India.</p>
+            <p><b>Where do I work?</b></p>
+            <p>Well, I currently work in Amura Marketing Technologies, Pune since 5 years.</p>
+            <p><b>What do I work on?</b></p>
+            <p>I am working mainly into web application development. I have been working in real estate domain. I have worked on multiple products that helps our client manage their leads, inventory and sale more efficiently</p>
+            <p><b>What technologies I work on?</b></p>
+            <p>
+              I mainly work with Ruby on rails and javascript as I am into web application development. But there are other technologies also that I explore other than work like reactJS, NodeJs
+            </p>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- About Section -->
-    <section id="about" class="text-center" style="background-color: #272727">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-3 mx-auto" style="background-color: black">
-            <h2 style="line-height: 400px">About Me</h2>
-          </div>
-          <div class="col-lg-9 mx-auto content-section" style="background-color: #36454f">
-            <p>I have five years of industry experience, which includes product development, resource planning, project execution and product management. I have vast experience in integrating and developing marketing solutions.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Download Section -->
-    <section id="products" class="content-section text-center" style="background-color: white; color: black; padding-top: 100px;">
-      <div class="container-fluid">
-        <div class="col-lg-12 mx-auto">
-          <h2>Products</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Sell.Do</h5>
-                  <p class="card-text">The Sell.do is a marketing and sales automation platform targeted towards Real Estate.</p>
-                  <p>The product is helping many clients to manage their leads and lead-sources. The leads are captured via multiple communication channels (ex: Emails, Calls and SMS). There are multiple sales executives who nurture and improve the quality of the leads. This improves the sales and customer satisfaction. Other than this, there are multiple features available in the product, such as Workflows, Post sales process handling, Marketing automation.</p>
-
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">pages.sell.do</h5>
-                  <p class="card-text">The Pages is a website building tool, to simplify the process of creating and managing websites.</p>
-                  <p>It has different features such as drag and drop components, color graders, undo-redo and responsive utilities. The application supports publishing and hosting websites on a local server. The product is built to reduce time to create landing pages in crunched timeline. Application also supports multi-page websites.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">collaborate.do</h5>
-                  <p class="card-text">The iHub, is an internal process management system</p>
-                  <p>
-                    The iHub, is an internal process management system, to streamline the company’s process and enhance the end-to-end delivery of the routine tasks. I have been responsible for managing release cycles and the delivery of this project.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">hub.sell.do </h5>
-                  <p class="card-text">The Hub is a completely customizable B2B platform for managing sales and marketing of companies in any business domain.</p>
-                  <p>The product can manage end-to-end sales cycle. It can also manage subscriptions, billing details, contracts and documents.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center" style="background-color: #536878">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact Me!</h2>
-            <p>Feel free to mail me at <b>vrushaliwaykole@gmail.com</b></p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/vrushaliwaykole/" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                  <span class="network-name">Linked-in</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://twitter.com/vrushaliwaykole" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/vrushaliwaykole" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Your Website 2018</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-
   </body>
-
 </html>
+<script type="text/javascript">
+  if(document.documentElement.clientWidth < 500){
+    if(document.getElementsByClassName('image-title-section')[0].clientHeight < document.documentElement.clientHeight){
+      document.getElementsByClassName('image-title-section')[0].style.height = document.documentElement.clientHeight + "px"
+    }
+  }else{
+    if(document.getElementById('introduction-section').clientHeight < document.documentElement.clientHeight){
+      document.getElementById('introduction-section').style.height = document.documentElement.clientHeight + "px"
+    }
+  }
+</script>
+
