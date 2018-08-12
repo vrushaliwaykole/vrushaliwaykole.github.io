@@ -49,7 +49,11 @@ html {
   padding-top: 50px;
   background-color: #edf5f3;
 }
-@media (min-width: 991px) {
+.introduction-image{
+  display: inline-block;
+  width: 100%;
+}
+@media (min-width: 577px) {
   .introduction-image{
     max-width: 200px;
   }
@@ -66,15 +70,15 @@ html {
     margin-top: 30px
   }
 }
-@media (max-width: 990px) {
-  .introduction-image{
-    max-width: 150px;
-  }
+@media (max-width: 576px) {
   .social-links-container{
     text-align: center;
   }
   .intro-body{
-    margin-top: 15px
+    margin-top: 10%;
+  }
+  .intro-body .name{
+    font-size: 22px !important;
   }
   .contact-me-container{
     text-align: center;
