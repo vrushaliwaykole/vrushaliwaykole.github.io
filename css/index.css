@@ -106,4 +106,7 @@ html {
 }
 #technologies-section .card{
   background-color: transparent;
+  width: inherit;
+  margin-bottom: 10px;
+  text-align: center;
 }
